@@ -4,6 +4,7 @@
     text-decoration: none;
     align-items: center;
     justify-items: center;
+    margin-right: 4%;
 }
 
 .link-item {
@@ -47,6 +48,7 @@ nav {
     justify-content: space-around;
     flex-wrap: wrap;
     justify-items: center;
+    background-color: aliceblue;
 }
 
 .nav-item {
@@ -62,6 +64,7 @@ nav {
 
 header {
     background-color: aliceblue;
+    
 }
 
 .link-item:hover {
@@ -187,6 +190,7 @@ img {
     border-radius: 10%;
     display: block;
     margin-bottom: 1%;
+    max-width: fit-content;
 }
 
 .element1:hover {
@@ -218,6 +222,7 @@ button:hover {
     border-radius: 10%;
     display: block;
     margin-bottom: 1%;
+    max-width: fit-content;
 }
 
 .element2:hover {
@@ -283,12 +288,125 @@ body {
 }
 
 .hero3 {
-    background-color: rgb(224, 164, 107);
+    background-color: lawngreen;
+    color: black;
 }
 .hero3 h3 {
-    font-size: 150%;
+    font-size: 250%;
     text-align: center;
     color: white;
-    font-family: 'American Garden';
     padding-top: 5%;
+    font-family: 'Clarendon Lt Bt Heavy';
+    margin-bottom: -4%;
+}
+
+/*Contact*/
+.contact-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.contact-section {
+    background-image: url(axel-ruffini-iulnjpZyWnc-unsplash.jpg);
+    background-size: cover;
+    background-color: rgb(0, 0, 0, 0.7);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: color;
+}
+.right-container {
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    margin: 2% 2%;
+}
+.left-container {
+    list-style: none;
+    margin: 2% 2%;
+    color: white;
+}
+.form1 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 4% 6%;
+    align-items: center;
+    color: white;
+}
+.form2 {
+    display: flex;
+    margin: 4% 6%;
+    align-items: center;
+    flex-wrap: wrap;
+    color: white;
+}
+.name-form, .email-form, .tel-form, .lastname-form {
+    margin: 2% 4%;
+    color: white;
+}
+.form3 {
+    margin-left: 50%;
+    color: white;
+    padding: 1% 2%;
+}
+.contact-section {
+    padding: 5% 5%;
+    color: white;
+}
+#none {
+    color: white;
+}
+/*FOOTER*/
+footer {
+    background-color: black;
+    padding: 2% 2%;
+    margin-bottom: ;
+    padding-left: -1%;
+}
+.foot-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.logo-foot {
+    font-size: 150%;
+    font-family: 'Castllar', 'Copperplate gothic';
+    letter-spacing: .2em;
+    font-weight: 900;
+    color: gray;
+}
+.logo-foot span {
+    color: rgb(181, 185, 185);
+}
+.foot-container .foot-para, .foot-container .copy {
+    color: white;
+    margin: 1% 1%;
+}
+.foot-icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 1% 1%;
+}
+.foot-icons img {
+    width: 10%;
+}
+.foot-para {
+    letter-spacing: .3em;
+}
+.request {
+    background-color: lawngreen;
+    border: none;
+    padding: 3% 6%;
+    text-align: center;
+    border-radius: 20px;
+    margin-left: 15%;
+}
+.request.hover {
+    background-color: rgb(132, 132, 226);
+    color: white;
+    font-weight: 600;
+    font-size: 100%;
 }
