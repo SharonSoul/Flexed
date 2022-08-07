@@ -409,12 +409,12 @@ footer {
     text-align: center;
     border-radius: 20px;
     margin-left: 15%;
+    transition: .2s;
 }
 .request.hover {
-    background-color: rgb(132, 132, 226);
+    background-color: rgb(132, 12, 226);
     color: white;
-    font-weight: 600;
-    font-size: 100%;
+    transform: scale(1.1);
 }
 
 @media only screen and (max-width: 850px) {
