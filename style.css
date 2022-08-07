@@ -3,8 +3,9 @@
     display: flex;
     text-decoration: none;
     align-items: center;
-    justify-items: center;
-    margin-right: 4%;
+    justify-content: space-around;
+    width: 30%;
+    flex-wrap: wrap;
 }
 
 .link-item {
@@ -15,18 +16,19 @@
 
 .middle-nav {
     display: flex;
-    flex-wrap: nowrap;
+    justify-content: space-around;
+    flex-wrap: wrap;
     align-items: center;
-    justify-items: center;
+    width: 30%;
 }
 
 .middle-nav1 {
-    padding-right: 1.5em;
+    /*padding-right: 1.5em;*/
 }
 
 .middle-nav2 {
     border: 3px solid lawngreen;
-    padding: .5em 1em;
+    padding: 4% 8%;
     border-radius: 40%;
 }
 
@@ -40,31 +42,26 @@
     font-family: 'Clarendon BT';
     display: flex;
     align-items: center;
-    justify-items: center;
+    width: 20%;
 }
 
 nav {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     flex-wrap: wrap;
-    justify-items: center;
     background-color: aliceblue;
+    padding: .5%;
 }
 
 .nav-item {
     background-color: aliceblue;
     text-decoration: none;
-    padding: 0% 6%;
 }
 
 .nav-soul {
     font-weight: 800;
     color: lawngreen;
-}
-
-header {
-    background-color: aliceblue;
-    
 }
 
 .link-item:hover {
@@ -88,7 +85,7 @@ header {
 h1 {
     font-family: 'Clarendon Lt Bt Heavy';
     font-size: 2.5em;
-   /* text-shadow: -20px -15px 10px rgb(0, 0, 0, 0.4);*/
+    /* text-shadow: -20px -15px 10px rgb(0, 0, 0, 0.4);*/
 }
 
 .primary-cta {
@@ -137,6 +134,9 @@ img {
 .hero-img {
     display: flex;
     align-items: center;
+}
+.hero-img2 {
+    display: none;
 }
 
 img {
@@ -409,4 +409,23 @@ footer {
     color: white;
     font-weight: 600;
     font-size: 100%;
+}
+
+@media only screen and (max-width: 850px) {
+    .hero-img {
+        display: none;
+    }
+    .hero-img2 {
+        display: block;
+        margin: auto;
+    }
+    .container-hero {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin: 0% 6%;
+        text-align: center;
+        margin-top: 13%;
+        margin-bottom: 10%;
+    }
 }
