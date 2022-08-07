@@ -12,6 +12,8 @@
     text-decoration: none;
     border: 0% solid black;
     color: lawngreen;
+    transition: .2s;
+    font-weight: 550;
 }
 
 .middle-nav {
@@ -28,14 +30,16 @@
 
 .middle-nav2 {
     border: 3px solid lawngreen;
-    padding: 4% 8%;
+    padding: 2% 4%;
     border-radius: 40%;
+    transition: .2s;
+    font-weight: 550;
 }
 
 .middle-nav2:hover {
     background-color: lawngreen;
     color: white;
-    font-weight: 600;
+    transform: scale(1.1);
 }
 
 .left-nav {
@@ -51,7 +55,7 @@ nav {
     align-items: center;
     flex-wrap: wrap;
     background-color: aliceblue;
-    padding: .5%;
+    padding: %;
 }
 
 .nav-item {
@@ -66,7 +70,8 @@ nav {
 
 .link-item:hover {
     color: black;
-    font-weight: 550;
+    transform: scale(1.3);
+
 }
 
 .link-item:active {
