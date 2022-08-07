@@ -1,0 +1,412 @@
+/*Navigation*/
+.right-nav {
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    justify-items: center;
+    margin-right: 4%;
+}
+
+.link-item {
+    text-decoration: none;
+    border: 0% solid black;
+    color: lawngreen;
+}
+
+.middle-nav {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-items: center;
+}
+
+.middle-nav1 {
+    padding-right: 1.5em;
+}
+
+.middle-nav2 {
+    border: 3px solid lawngreen;
+    padding: .5em 1em;
+    border-radius: 40%;
+}
+
+.middle-nav2:hover {
+    background-color: lawngreen;
+    color: white;
+    font-weight: 600;
+}
+
+.left-nav {
+    font-family: 'Clarendon BT';
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-items: center;
+    background-color: aliceblue;
+}
+
+.nav-item {
+    background-color: aliceblue;
+    text-decoration: none;
+    padding: 0% 6%;
+}
+
+.nav-soul {
+    font-weight: 800;
+    color: lawngreen;
+}
+
+header {
+    background-color: aliceblue;
+    
+}
+
+.link-item:hover {
+    color: black;
+    font-weight: 550;
+}
+
+.link-item:active {
+    font-size: 102%;
+    color: rgb(36, 163, 163);
+}
+
+/*Hero1*/
+.subhead {
+    color: gray;
+    text-transform: uppercase;
+    letter-spacing: .3em;
+    font-family: 'Clarendon Lt Bt Heavy';
+}
+
+h1 {
+    font-family: 'Clarendon Lt Bt Heavy';
+    font-size: 2.5em;
+   /* text-shadow: -20px -15px 10px rgb(0, 0, 0, 0.4);*/
+}
+
+.primary-cta {
+    color: white;
+    background-color: rgb(36, 163, 163);
+    padding: 3% 7%;
+    border-radius: 50px;
+    font-family: 'Clarendon Lt Bt Heavy';
+    text-decoration: none;
+    box-shadow: -4px -4px 10px black;
+}
+.primary-cta:hover {
+    background-color: rgb(132, 132, 226);
+}
+
+.watch-video-cta {
+    margin-left: 1em;
+    color: black;
+}
+
+.hero-cta {
+    display: flex;
+    align-items: center;
+}
+
+.container-hero {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 18% 6%;
+    text-align: center;
+}
+
+.left-col {
+    line-height: 3em;
+}
+.youtube {
+    width: 20%;
+    box-shadow: none;
+}
+img {
+    border-radius: 40px;
+    box-shadow: 5px 5px 10px black;
+}
+
+.hero-img {
+    display: flex;
+    align-items: center;
+}
+
+img {
+    width: 30%;
+}
+
+/*Hero2*/
+.hero2 {
+    background-color: beige;
+}
+
+.container-main {
+    background-color: whitesmoke;
+    margin: 15%;
+    width: auto;
+    box-shadow: -4px -4px 30px black;
+    border-radius: 10px;
+}
+
+.container-top {
+    background-color: ;
+    margin: 8%;
+    padding-top: 2em;
+    padding-left: 1em;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-bottom {
+    background-color: ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /*margin-left: 25%;
+    margin-right: 25%;
+    margin: em;
+    padding-top: em;
+    padding-left: em;*/
+    align-content: space-between;
+    align-items: ;
+}
+
+.element1 {
+    background-color: rgb(36, 163, 163);
+    padding: 5% 12%;
+    margin: 0em;
+    /*padding: 2em;
+    padding-left: 10%;*/
+    color: white;
+    font-weight: 700;
+    border-radius: 10%;
+    display: block;
+    margin-bottom: 1%;
+    max-width: fit-content;
+}
+
+.element1:hover {
+    background-color: rgb(36, 163, 163, 0.7);
+}
+button {
+    background-color: lawngreen;
+    border: 1px none;
+    padding: 5% 10%;
+    text-align: center;
+    border-radius: 20px;
+}
+button:hover {
+    background-color: rgb(132, 132, 226);
+    color: white;
+    font-weight: 600;
+    font-size: 102%;
+}
+
+.element2 {
+    background-color:
+        rgb(132, 132, 226, 1);
+    list-style-image: url(bullet.svg);
+    color: white;
+    /*padding: 2em;
+    padding-right: 10%;*/
+    padding: 5% 12%;
+    font-weight: 800;
+    border-radius: 10%;
+    display: block;
+    margin-bottom: 1%;
+    max-width: fit-content;
+}
+
+.element2:hover {
+    background-color: rgb(132, 132, 226, .8);
+}
+
+.list {
+    padding: .1em .5em;
+    font-weight: 400;
+    line-height: 1.5em;
+}
+
+.list::before {
+    content: url();
+}
+
+h3 {
+    color: turquoise;
+}
+
+.free {
+    color: lawngreen;
+}
+
+.free-text {
+    line-height: 2em;
+}
+
+.dollar {
+    font-size: 150%;
+    font-weight: 600;
+}
+
+body {
+    font-family: 'Arial', Times, serif;
+}
+
+/*Hero3*/
+.block {
+    background-color: rgb(132, 132, 226, 0.7);
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 40%;
+    padding: 10% .1%;
+    margin: 1% 1%;
+    font-family: 'Afternoon Garden';
+}
+.block:hover {
+    background-color: rgb(132, 132, 226);
+}
+
+.latin {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: space-between;
+    align-items: center;
+    list-style: none;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 10% 10%;
+    width: auto;
+}
+
+.hero3 {
+    background-color: lawngreen;
+    color: black;
+}
+.hero3 h3 {
+    font-size: 250%;
+    text-align: center;
+    color: white;
+    padding-top: 5%;
+    font-family: 'Clarendon Lt Bt Heavy';
+    margin-bottom: -4%;
+}
+
+/*Contact*/
+.contact-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.contact-section {
+    background-image: url(axel-ruffini-iulnjpZyWnc-unsplash.jpg);
+    background-size: cover;
+    background-color: rgb(0, 0, 0, 0.7);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: color;
+}
+.right-container {
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    margin: 2% 2%;
+}
+.left-container {
+    list-style: none;
+    margin: 2% 2%;
+    color: white;
+}
+.form1 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 4% 6%;
+    align-items: center;
+    color: white;
+}
+.form2 {
+    display: flex;
+    margin: 4% 6%;
+    align-items: center;
+    flex-wrap: wrap;
+    color: white;
+}
+.name-form, .email-form, .tel-form, .lastname-form {
+    margin: 2% 4%;
+    color: white;
+}
+.form3 {
+    margin-left: 50%;
+    color: white;
+    padding: 1% 2%;
+}
+.contact-section {
+    padding: 5% 5%;
+    color: white;
+}
+#none {
+    color: white;
+}
+/*FOOTER*/
+footer {
+    background-color: black;
+    padding: 2% 2%;
+    margin-bottom: ;
+    padding-left: -1%;
+}
+.foot-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.logo-foot {
+    font-size: 150%;
+    font-family: 'Castllar', 'Copperplate gothic';
+    letter-spacing: .2em;
+    font-weight: 900;
+    color: gray;
+}
+.logo-foot span {
+    color: rgb(181, 185, 185);
+}
+.foot-container .foot-para, .foot-container .copy {
+    color: white;
+    margin: 1% 1%;
+}
+.foot-icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 1% 1%;
+}
+.foot-icons img {
+    width: 10%;
+}
+.foot-para {
+    letter-spacing: .3em;
+}
+.request {
+    background-color: lawngreen;
+    border: none;
+    padding: 3% 6%;
+    text-align: center;
+    border-radius: 20px;
+    margin-left: 15%;
+}
+.request.hover {
+    background-color: rgb(132, 132, 226);
+    color: white;
+    font-weight: 600;
+    font-size: 100%;
+}
